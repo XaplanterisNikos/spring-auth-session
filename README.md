@@ -1,4 +1,4 @@
-# auth-spring
+# spring-platform
 ## TEST
 authorization authentication spring
 Java :17
