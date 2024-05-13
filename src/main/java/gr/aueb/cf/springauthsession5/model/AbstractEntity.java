@@ -24,10 +24,10 @@ import java.time.LocalDateTime;
 @DynamicInsert
 @DynamicUpdate
 @EntityListeners(AuditingEntityListener.class)
-public class AbstractEntity {
+public abstract class AbstractEntity {
 
     @CreatedDate
-    @Column(name = "/created_at" ,nullable = false,updatable = false)
+    @Column(name = "created_at" ,nullable = false,updatable = false)
     private LocalDateTime createdAt;
 
 
